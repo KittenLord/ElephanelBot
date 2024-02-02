@@ -11,6 +11,7 @@ using Npgsql;
 
 namespace Elephanel;
 
+// TODO: also finish my sql/database stuff wrapper library
 public class SqlTable<T>
 {
 	private IEnumerable<(PropertyInfo property, SqlColumnAttribute attribute)> Properties;

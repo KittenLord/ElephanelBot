@@ -1,5 +1,6 @@
 using System.Text;
 
+// TODO: finish my crypto wrapper library
 public static class Hash
 {
     public static string SHA256String(string input) => Hash.SHA256(input).ToBase64();
